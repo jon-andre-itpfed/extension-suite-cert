@@ -40,7 +40,8 @@
         },
         "[production]": {
           "credentials": {
-            "destination": "API_BUSINESS_PARTNER"
+            "destination": "s4m_all",
+            "path" : "sap/opu/odata/sap/API_BUSINESS_PARTNER"
           }
         }
       },
