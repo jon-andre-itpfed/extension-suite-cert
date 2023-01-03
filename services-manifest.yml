@@ -3,10 +3,10 @@
 ---
 create-services:
 # ------------------------------------------------------------
-  - name:   risk-management-xsuaa
-    broker: xsuaa
-    plan: application
-# ------------------------------------------------------------
   - name:   risk-management-db
     broker: hana  # 'hanatrial' on trial landscapes
     plan: "hdi-shared"
+# ------------------------------------------------------------
+  - name:   risk-management-xsuaa
+    broker: xsuaa
+    plan: application

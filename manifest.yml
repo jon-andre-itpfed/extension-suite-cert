@@ -13,8 +13,8 @@ applications:
   memory: 256M
   buildpack: nodejs_buildpack
   services:
-  - risk-management-xsuaa
   - risk-management-db
+  - risk-management-xsuaa
   - risk-management-destination-service
 
 # -----------------------------------------------------------------------------------
