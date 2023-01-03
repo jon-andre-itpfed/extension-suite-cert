@@ -28,6 +28,6 @@
       "attribute-references": []
     }
   ],
-  "xsappname": "risk-management",
+  "xsappname": "risk-management-dev",
   "tenant-mode": "dedicated"
 }
