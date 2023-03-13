@@ -67,7 +67,6 @@ modules:
          artifacts:
            - ./*
          target-path: resources
-
 # ------------------- UI ------------------------
  - name: risk-management-app
 # ------------------------------------------------------------

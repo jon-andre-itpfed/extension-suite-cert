@@ -17,9 +17,8 @@
     "@sap/xssec": "^3.2.13",
     "express": "^4",
     "hdb": "^0.18.3",
-    "passport": "^0.5.2"
+    "passport": "^0.5.3"
   },
-
   "scripts": {
     "start": "cds run"
   },
@@ -37,15 +36,14 @@
         },
         "[production]": {
           "credentials": {
-            "destination": "s4m_all",
-            "path" : "sap/opu/odata/sap/API_BUSINESS_PARTNER"
+            "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER/"
           }
         }
       },
       "db": {
         "kind": "sql"
       },
-      "xsuaa": {
+      "auth": {
         "kind": "xsuaa"
       }
     },
